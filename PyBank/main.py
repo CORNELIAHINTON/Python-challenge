@@ -2,7 +2,7 @@ import os
 import csv
 
 #path to collect the data from the budget data csv file
-csvpath = os.path.join('PyBank/resources/budget_data.csv')
+csvpath = os.path.join('resources/budget_data.csv')
 
 TotalMonths = 0
 TotalAmount = 0
@@ -80,7 +80,7 @@ output = (
 print(output)
 
 #Write results in to a text file
-mainFile = os.path.join('Python-challenge/PyBank')
+mainFile = os.path.join('PyBank.txt')
 
 with open(mainFile,"w") as textfile:
     textfile.write(output)
